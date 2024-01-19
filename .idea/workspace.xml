@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e44e5273-f689-44e7-a1c8-4eddf95e00d3" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/Testing-in-GO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-update-user-input-make-testable/coverage.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-update-user-input-make-testable/coverage.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-update-user-input-make-testable/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-update-user-input-make-testable/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-update-user-input-make-testable/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-writting-tests-for-check-numbers/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/18-writting-tests-for-check-numbers/coverage.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-writting-tests-for-check-numbers/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/18-writting-tests-for-check-numbers/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-writting-tests-for-check-numbers/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/18-writting-tests-for-check-numbers/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.work" beforeDir="false" afterPath="$PROJECT_DIR$/go.work" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="77313003-e011-4bd5-b71e-fc06e347a338" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2bAicSUl7HYo8jGth4Jkwg03FzB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Test.Test_checkNumbers in github.com/mkdtemplar/Testing-in-GO/18-writting-tests-for-check-numbers.executor": "Coverage",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/ivanm/Documents/Udemy/Testing-in-GO/19-update-user-input-make-testable",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Go"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/19-update-user-input-make-testable" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-266795519c66-911b893a1778-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.13135.104" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Testing_in_GO$Test_checkNumbers_in_github_com_mkdtemplar_Testing_in_GO_18_writting_tests_for_check_numbers.out" NAME="Test_checkNumbers in github.com/mkdtemplar/Testing-in-GO/18-writting-tests-for-check-numbers Coverage Results" MODIFIED="1705674906680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

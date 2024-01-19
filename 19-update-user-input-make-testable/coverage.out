@@ -1,0 +1,21 @@
+mode: set
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:12.13,29.2 6 0
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:31.14,36.2 4 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:38.15,40.2 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:42.54,45.6 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:45.6,47.11 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:47.11,50.4 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:51.3,52.11 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:57.58,62.44 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:62.44,64.3 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:67.2,68.16 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:68.16,70.3 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:72.2,73.19 2 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:76.36,77.22 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:77.22,79.3 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:80.2,80.11 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:80.11,82.3 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:84.2,84.27 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:84.27,85.15 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:85.15,87.4 1 1
+github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable/main.go:90.2,90.53 1 1
