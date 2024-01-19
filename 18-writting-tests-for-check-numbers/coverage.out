@@ -1,0 +1,21 @@
+mode: set
+10-simple-CLI/main.go:11.13,28.2 6 0
+10-simple-CLI/main.go:30.14,35.2 4 1
+10-simple-CLI/main.go:37.15,39.2 1 1
+10-simple-CLI/main.go:41.40,44.6 2 0
+10-simple-CLI/main.go:44.6,46.11 2 0
+10-simple-CLI/main.go:46.11,49.4 2 0
+10-simple-CLI/main.go:50.3,51.11 2 0
+10-simple-CLI/main.go:56.58,61.44 2 0
+10-simple-CLI/main.go:61.44,63.3 1 0
+10-simple-CLI/main.go:66.2,67.16 2 0
+10-simple-CLI/main.go:67.16,69.3 1 0
+10-simple-CLI/main.go:71.2,72.19 2 0
+10-simple-CLI/main.go:75.36,76.22 1 1
+10-simple-CLI/main.go:76.22,78.3 1 1
+10-simple-CLI/main.go:79.2,79.11 1 1
+10-simple-CLI/main.go:79.11,81.3 1 1
+10-simple-CLI/main.go:83.2,83.27 1 1
+10-simple-CLI/main.go:83.27,84.15 1 1
+10-simple-CLI/main.go:84.15,86.4 1 1
+10-simple-CLI/main.go:89.2,89.53 1 1
