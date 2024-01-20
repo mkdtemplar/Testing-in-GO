@@ -3,35 +3,15 @@ package main
 import (
 	"net/http/httptest"
 	"net/url"
-	"reflect"
 	"testing"
 )
 
 func TestForm_Check(t *testing.T) {
-	type fields struct {
-		Data   url.Values
-		Errors errors
-	}
-	type args struct {
-		ok      bool
-		key     string
-		message string
-	}
-	tests := []struct {
-		name   string
-		fields fields
-		args   args
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			f := Form{
-				Data:   tt.fields.Data,
-				Errors: tt.fields.Errors,
-			}
-			f.Check(tt.args.ok, tt.args.key, tt.args.message)
-		})
+	form := NewForm(nil)
+
+	form.Check(false, "password", "password is required")
+	if form.Valid() {
+		t.Error("Valid returns false, and should be true when calling Check()")
 	}
 }
 
@@ -75,87 +55,18 @@ func TestForm_Required(t *testing.T) {
 	}
 }
 
-func TestForm_Valid(t *testing.T) {
-	type fields struct {
-		Data   url.Values
-		Errors errors
-	}
-	tests := []struct {
-		name   string
-		fields fields
-		want   bool
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			f := Form{
-				Data:   tt.fields.Data,
-				Errors: tt.fields.Errors,
-			}
-			if got := f.Valid(); got != tt.want {
-				t.Errorf("Valid() = %v, want %v", got, tt.want)
-			}
-		})
-	}
-}
-
-func TestNewForm(t *testing.T) {
-	type args struct {
-		data url.Values
-	}
-	tests := []struct {
-		name string
-		args args
-		want *Form
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			if got := NewForm(tt.args.data); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("NewForm() = %v, want %v", got, tt.want)
-			}
-		})
-	}
-}
-
-func Test_errors_Add(t *testing.T) {
-	type args struct {
-		field   string
-		message string
-	}
-	tests := []struct {
-		name string
-		e    errors
-		args args
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			tt.e.Add(tt.args.field, tt.args.message)
-		})
-	}
-}
-
 func Test_errors_Get(t *testing.T) {
-	type args struct {
-		field string
+	form := NewForm(nil)
+	form.Check(false, "password", "password is required")
+
+	s := form.Errors.Get("password")
+
+	if len(s) == 0 {
+		t.Error("Should have an error, but do not")
 	}
-	tests := []struct {
-		name string
-		e    errors
-		args args
-		want string
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			if got := tt.e.Get(tt.args.field); got != tt.want {
-				t.Errorf("Get() = %v, want %v", got, tt.want)
-			}
-		})
+
+	s = form.Errors.Get("testfield")
+	if len(s) != 0 {
+		t.Error("There should not be an error, but error returned")
 	}
 }
