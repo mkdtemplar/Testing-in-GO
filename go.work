@@ -3,4 +3,5 @@ go 1.21.6
 use (
 	./18-writting-tests-for-check-numbers
 	./19-update-user-input-make-testable
+	./Section-5-Testing-Web-Applications/24-creating-simple-web-application
 )

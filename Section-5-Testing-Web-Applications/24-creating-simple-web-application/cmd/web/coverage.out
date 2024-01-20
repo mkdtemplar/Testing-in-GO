@@ -1,0 +1,27 @@
+mode: set
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/handlers.go:16.68,18.2 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/handlers.go:20.106,23.16 2 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/handlers.go:23.16,26.3 2 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/handlers.go:28.2,32.16 3 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/handlers.go:32.16,34.3 1 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/handlers.go:35.2,35.12 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/main.go:12.13,24.16 5 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/main.go:24.16,26.3 1 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:14.65,16.2 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:18.70,19.82 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:19.82,22.17 3 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:22.17,24.20 2 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:24.20,26.5 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:27.4,27.66 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:28.9,30.4 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:31.3,31.51 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:35.45,37.16 2 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:37.16,39.3 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:41.2,42.19 2 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:42.19,44.3 1 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:46.2,47.22 2 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:47.22,49.3 1 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:51.2,51.18 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:51.18,53.3 1 0
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/middleware.go:55.2,55.16 1 1
+github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web/routes.go:10.45,25.2 7 1
