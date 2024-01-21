@@ -1,12 +1,16 @@
 package main
 
 import (
+	"context"
+	"fmt"
+	"io"
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"testing"
 )
 
-func Test_application_Home(t *testing.T) {
+func Test_application_handlers(t *testing.T) {
 	type args struct {
 		url                string
 		expectedStatusCode int
@@ -19,7 +23,6 @@ func Test_application_Home(t *testing.T) {
 		{name: "404", args: args{url: "/finsh", expectedStatusCode: http.StatusNotFound}},
 	}
 
-	var app application
 	routes := app.routes()
 
 	// create test web server
@@ -40,26 +43,49 @@ func Test_application_Home(t *testing.T) {
 	}
 }
 
-func Test_application_render(t *testing.T) {
-	type args struct {
-		w    http.ResponseWriter
-		r    *http.Request
-		t    string
-		data *TemplateData
-	}
-	tests := []struct {
-		name    string
-		args    args
-		wantErr bool
+func TestAppHome(t *testing.T) {
+	var tests = []struct {
+		name         string
+		putInSession string
+		expectedHTML string
 	}{
-		// TODO: Add test cases.
+		{name: "firstVisit", putInSession: "", expectedHTML: "<small>From session:"},
 	}
+
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			a := &application{}
-			if err := a.render(tt.args.w, tt.args.r, tt.args.t, tt.args.data); (err != nil) != tt.wantErr {
-				t.Errorf("render() error = %v, wantErr %v", err, tt.wantErr)
-			}
-		})
+		req := httptest.NewRequest("GET", "/", nil)
+
+		req = addContextAndSessionToRequest(req, app)
+		_ = app.Session.Destroy(req.Context())
+
+		if tt.putInSession == "" {
+			app.Session.Put(req.Context(), "test", tt.putInSession)
+		}
+
+		resp := httptest.NewRecorder()
+		handler := http.HandlerFunc(app.Home)
+
+		handler.ServeHTTP(resp, req)
+		if resp.Code != http.StatusOK {
+			t.Errorf("TestHome returned %d, but expected %d", resp.Code, http.StatusOK)
+		}
+
+		body, _ := io.ReadAll(resp.Body)
+
+		if !strings.Contains(string(body), tt.expectedHTML) {
+			t.Errorf("%s: did not find %s in response body ", tt.name, tt.expectedHTML)
+		}
 	}
+}
+
+func getContext(req *http.Request) context.Context {
+	ctx := context.WithValue(req.Context(), contextUserKey, "unknown")
+	return ctx
+}
+func addContextAndSessionToRequest(req *http.Request, app application) *http.Request {
+	req = req.WithContext(getContext(req))
+	fmt.Println("Header: ", req.Header.Get("X-Session"))
+	ctx, _ := app.Session.Load(req.Context(), req.Header.Get("X-Session"))
+
+	return req.WithContext(ctx)
 }

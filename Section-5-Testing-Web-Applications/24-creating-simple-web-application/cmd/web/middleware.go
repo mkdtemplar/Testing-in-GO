@@ -9,7 +9,7 @@ import (
 
 type contextKey string
 
-const contextUserKey contextKey = "user_id"
+const contextUserKey contextKey = "user_ip"
 
 func (a *application) ipFromContext(ctx context.Context) string {
 	return ctx.Value(contextUserKey).(string)
