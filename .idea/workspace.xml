@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e44e5273-f689-44e7-a1c8-4eddf95e00d3" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/sql/users.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/testdata/bad.page.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/testdata/base.layout.page.gohtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/coverage.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/handlers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/handlers_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/coverage.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/coverage.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/forms.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/forms_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/handlers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/handlers_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/middleware_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/routes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/routes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/sessions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/setup_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/sql/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/testdata/bad.page.gohtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web/testdata/base.layout.page.gohtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/templates/base.layout.gohtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/templates/home.page.gohtml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +88,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,10 +101,17 @@
       <recent name="$PROJECT_DIR$/19-update-user-input-make-testable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Section-5-Testing-Web-Applications" />
+      <recent name="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application" />
       <recent name="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web">
+  <component name="RunManager" selected="Database Script.create_tables.sql">
+    <configuration name="create_tables.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/sql/users.sql/create_tables.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Testing-in-GO" />
       <working_directory value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web" />
@@ -107,18 +134,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestRenderBadTemplate\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_application_Home in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Testing-in-GO" />
-      <working_directory value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web" />
-      <root_directory value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application" />
-      <kind value="PACKAGE" />
-      <package value="github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_application_Home\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_application_HomeOld in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -147,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.create_tables.sql" />
         <item itemvalue="Go Test.TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
         <item itemvalue="Go Test.TestRenderBadTemplate in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
         <item itemvalue="Go Test.Test_application_HomeOld in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
         <item itemvalue="Go Test.Test_application_handlers in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
-        <item itemvalue="Go Test.Test_application_Home in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
       </list>
     </recent_temporary>
   </component>
