@@ -50,6 +50,7 @@ func TestAppHome(t *testing.T) {
 		expectedHTML string
 	}{
 		{name: "firstVisit", putInSession: "", expectedHTML: "<small>From session:"},
+		//{name: "secondvisit", putInSession: "hello world!", expectedHTML: "<small>From session: hello world!"},
 	}
 
 	for _, tt := range tests {
@@ -75,6 +76,19 @@ func TestAppHome(t *testing.T) {
 		if !strings.Contains(string(body), tt.expectedHTML) {
 			t.Errorf("%s: did not find %s in response body ", tt.name, tt.expectedHTML)
 		}
+	}
+}
+
+func TestRenderBadTemplate(t *testing.T) {
+	// set location to bad template
+	pathToTemplates = "./testdata/"
+	req := httptest.NewRequest("GET", "/", nil)
+	req = addContextAndSessionToRequest(req, app)
+	resp := httptest.NewRecorder()
+	err := app.render(resp, req, "bad.page.gohtml", &TemplateData{})
+
+	if err == nil {
+		t.Error("Expected an error but not received, test failed")
 	}
 }
 
