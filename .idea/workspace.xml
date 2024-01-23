@@ -58,43 +58,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.TestForm_Check in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.TestForm_Has in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.TestForm_Required in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.TestRenderBadTemplate in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.Test_application_Home in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.Test_application_HomeOld in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.Test_application_addIpToContext in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Coverage",
-    "Go Test.Test_application_handlers in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.Test_application_ipFromContext in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.Test_application_routes in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.Test_checkNumbers in github.com/mkdtemplar/Testing-in-GO/18-writting-tests-for-check-numbers.executor": "Coverage",
-    "Go Test.Test_errors_Get in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Run",
-    "Go Test.go test github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Coverage",
-    "Go Test.gobench github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor": "Coverage",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/ivanm/Documents/Udemy/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestForm_Check in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestForm_Has in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestForm_Required in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestRenderBadTemplate in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_application_Home in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_application_HomeOld in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_application_addIpToContext in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.Test_application_handlers in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_application_ipFromContext in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_application_routes in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_checkNumbers in github.com/mkdtemplar/Testing-in-GO/18-writting-tests-for-check-numbers.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.Test_errors_Get in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.gobench github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivanm/Documents/Udemy/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web" />
@@ -106,10 +106,19 @@
       <recent name="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.create_tables.sql">
+  <component name="RunManager" selected="Go Build.go build github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable">
     <configuration name="create_tables.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/sql/users.sql/create_tables.sql" />
       <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Testing-in-GO" />
+      <working_directory value="$PROJECT_DIR$/19-update-user-input-make-testable" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/19-update-user-input-make-testable/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -148,25 +157,13 @@
       <pattern value="^\QTest_application_HomeOld\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_application_handlers in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Testing-in-GO" />
-      <working_directory value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application/cmd/web" />
-      <root_directory value="$PROJECT_DIR$/Section-5-Testing-Web-Applications/24-creating-simple-web-application" />
-      <kind value="PACKAGE" />
-      <package value="github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_application_handlers\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/mkdtemplar/Testing-in-GO/19-update-user-input-make-testable" />
         <item itemvalue="Database Script.create_tables.sql" />
         <item itemvalue="Go Test.TestAppHome in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
         <item itemvalue="Go Test.TestRenderBadTemplate in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
         <item itemvalue="Go Test.Test_application_HomeOld in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
-        <item itemvalue="Go Test.Test_application_handlers in github.com/mkdtemplar/Testing-in-GO/Section-5-Testing-Web-Applications/24-creating-simple-web-application/24-creating-simple-web-application/cmd/web" />
       </list>
     </recent_temporary>
   </component>
